@@ -18,39 +18,43 @@ A Python-based tool that analyzes a user's Codeforces performance using the Code
 - requests
 
 ## Project Structure
+
+```text
 cf-analyzer/
-├── main.py
-├── api.py
-├── analysis.py
-├── visualization.py
-├── utils.py
-├── requirements.txt
-├── README.md
-└── data/
+│
+├── 📄 main.py
+├── 📄 api.py
+├── 📄 analysis.py
+├── 📄 visualization.py
+├── 📄 utils.py
+├── 📋 requirements.txt
+├── 📖 README.md
+└── 📁 data/
+```
+
 
 ## How to Run
-
 1. Clone the repository:
-git clone https://github.com/your-username/cf-analyzer.git
+git clone https://github.com/adi02surana/CF-analyzer.git
 cd cf-analyzer
 
 2. Install dependencies:
 pip install -r requirements.txt
 
-3. Run the program:
+3. Run the program: 
 python main.py
 
 4. Enter your Codeforces handle when prompted.
 
-Output
 The program generates:
 
-Rating graph
-Tag-wise performance chart
-Difficulty distribution
-Activity analysis
+    Rating graph 
+    Tag-wise performance chart
+    Difficulty distribution
+    Activity analysis
 
-Future Improvements
-Web interface (Streamlit)
-More advanced recommendation system
-Real-time contest performance tracking
+Future Improvements:
+
+    Web interface (Streamlit)
+    More advanced recommendation system
+    Real-time contest performance tracking
